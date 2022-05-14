@@ -1,0 +1,59 @@
+body{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1em;
+}
+.baslik{
+    text-align: center;
+    padding-top: 15px;
+    color:cadetblue;
+}
+.center{
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+}
+ul.center {
+    text-align: center;
+    list-style-position: inside;
+
+}
+.nav-item{
+    text-align: center;
+    list-style-position: inside;
+    list-style-type: none;
+    display: inline-block;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.link{
+    color: darkmagenta;
+    text-decoration:none;
+}
+.link:hover{
+    color:black;
+    font-size: 1.1em;
+}
+.content{
+    margin: auto;
+    width: 80%;
+    padding: 10px;
+}
+.product{
+    width: 40%;
+    height: auto;
+    float: left;
+    border-style: outset;
+    padding:20px;
+    margin-bottom:15px;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+.img{
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
